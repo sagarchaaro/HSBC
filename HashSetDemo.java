@@ -11,7 +11,6 @@ public class HashSetDemo {
 		h.add(567);
 		h.add("India");
 		System.out.println(h.add("Sagar"));
-		System.out.println(h.add("Google"));
 		
 		Iterator itr = h.iterator();
 		System.out.println("HashSet Data is :");
@@ -21,6 +20,7 @@ public class HashSetDemo {
 		}
 		
 		System.out.println(h.isEmpty());
+		System.out.println(h.add("facebook"));
 		
 		ArrayList al= new ArrayList();
 		al.add("ABCD");
@@ -35,13 +35,11 @@ public class HashSetDemo {
 		h.addAll(al);
 		System.out.println("After Adding the HashSet with the ArrayList is :"+h);
 		
-		System.out.println(h.contains("ABCD"));
+		System.out.println(h.contains("xyz"));
 		
 		Object[] obj=h.toArray();
 		System.out.println("After convering into the Array data is :");
-		for(int i=0;i<obj.length;i++){
-			System.out.println(obj[i]);
-		}
+		
 		
 		
 		
