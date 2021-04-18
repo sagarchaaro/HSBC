@@ -21,6 +21,7 @@ public class HashSetDemo {
 		
 		System.out.println(h.isEmpty());
 		System.out.println(h.add("facebook"));
+		System.out.println("This is HashSet-Git hub Demo");
 		
 		ArrayList al= new ArrayList();
 		al.add("ABCD");
