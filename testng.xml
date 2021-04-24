@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suitename="Suite1"verbose="1">
+	<listeners>
+		<listenerclass-name="com.utilities.TestListener"/>
+	</listeners>
+	<testname="E2EPortal"parallel="methods"thread-count="1">
+		<classes>
+			<classname="com.pccportal.test.SetupHub"/>
+			<!-- <class name="com.pccportal.test.LatencyEventsE2E" /> -->
+			<!-- <class name="com.pccportal.test.EventsE2E" /> -->
+			<!-- <class name="com.pccportal.test.SensorE2E" /> -->
+			<classname="com.pccportal.test.GatewayE2E"/>
+			<!-- <class name="com.pccportal.test.MyProfileE2E" /> -->
+			<!-- <class name="com.pccportal.test.Localization" /> -->
+		</classes>
+	</test>
+</suite>
